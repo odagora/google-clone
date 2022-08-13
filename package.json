@@ -1,0 +1,11 @@
+{
+  "name": "google-clone",
+  "version": "1.0.0",
+  "description": "A simple Google Clone project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Gonzalez <oscar.d.gonzalez@gmail.com>",
+  "license": "MIT"
+}
