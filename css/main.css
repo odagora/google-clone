@@ -54,3 +54,58 @@ nav .nav-right-section img {
     border-radius: 50%;
     margin-left: 5px;
 }
+
+main {
+    margin-top: 150px;
+    text-align: center;
+}
+
+main .main-logo {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .main-logo img {
+    width: 300px;
+}
+
+main .main-input {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .main-input-container {
+    border: 1px solid #dfe1e5;
+    display: flex;
+    border-radius: 24px;
+    align-items: center;
+    justify-content: center;
+    width: 525px;
+    margin: 0 auto;
+}
+
+main .main-input input {
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+
+main .main-input-container:hover {
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223, 225, 229, 0);
+}
+
+main .main-input .material-icons {
+    color: #9aa0a6;
+}
+main .main-input .micro-icon {
+    background: url('https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+}
