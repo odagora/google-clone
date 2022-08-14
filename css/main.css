@@ -154,3 +154,50 @@ main .main-location p {
 main .main-location a {
     padding: 0 3px;
 }
+
+footer {
+    width: 100%;
+    background: #f2f2f2;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+footer div:first-child {
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 1.5rem;
+    color: #70757a;
+}
+
+footer div:last-child {
+    justify-content: space-between;
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    background: #f2f2f2;
+}
+
+footer ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer .footer-left {
+    justify-self: left;
+}
+
+footer .footer-right {
+    justify-self: right;
+}
+
+footer li a {
+    display: block;
+    padding: 15px;
+    color: #70757a;
+    font-size: 1.4rem;
+}
