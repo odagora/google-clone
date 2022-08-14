@@ -109,3 +109,48 @@ main .main-input .micro-icon {
     width: 24px;
     height: 24px;
 }
+
+main .main-buttons {
+    width: 530px;
+    margin: 0 auto;
+    height: 60px;
+}
+
+main .main-buttons-container {
+    display: inline-block;
+}
+
+main .main-buttons-container button {
+    height: 36px;
+    min-width: 54px;
+    padding: 0 16px;
+    margin: 0 4px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-size: 1.4rem;
+    line-height: 27px;
+    cursor: pointer;
+    user-select: none;
+}
+
+main .main-buttons-container button:hover {
+    box-shadow: 0 1px 1px rgb(0 0 0 /10%);
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+main .main-location {
+    margin-bottom: 24px;
+}
+
+main .main-location p {
+    color: #4d5156;
+    line-height: 28px;
+    margin: 0;
+}
+
+main .main-location a {
+    padding: 0 3px;
+}
